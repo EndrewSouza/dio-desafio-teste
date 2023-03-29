@@ -1,0 +1,143 @@
+O QUE APRENDI DURANTE ESSAS AULAS:
+
+RECONHECIMENTO DE PADRÕES: RECEITA BOLO; CONSISTE EM UM CONJUNTO DE ETAPAS PRA CONCLUIR UMA TAREFA COMPLEXA, O BOLO POR EXEMPLO SERIA COMPOSTO POR MASSA, BASE E COBERTURA. ESSE SERIAM OS PASSOS NECESSÁRIOS PARA FAZER UM BOLO E ISSO BASICAMENTE PODE SER APLICADO NA ÁREA DA PROGRAMAÇÃO, JÁ QUE PARA FAZER UM APLICATIVO OU ALGO COMPLEXO, NÓS O MOLDAMOS COMO UMA ESPÉCIE DE QUEBRA-CABEÇA ATÉ TER O PRODUTO FINAL DURANTE A FASE FINAL DO PROCESSO DE DESENVOLVIMENTO, ALÉM DISSO PODE-SE TER A IDEIA DO RECONHECIMENTO DE PADRÕES PARA COMPRIMIR UMA IMAGEM CUJO ELAS É COMPOSTA POR; 2 BLOCOS AZUIS; 4 CINZAS; 9 VERMELHOS. ASSIM A IMAGEM É COMPRIMIDA E ARMAZENADA EM TAMANHO REDUZIDO NO SERVIDOR. 
+
+ABSTRAIR: É OBSERVAR ELEMENTOS AVALIANDO SUAS PROPRIEDADES E CARACTERÍSTICAS
+
+ABSTRAÇÃO: PROCESSO INTELECTUAL DE ISOLAMENTO DE UM OBJETO DA REALIDADE
+
+GENERALIZAR: TORNA-SE GERAL, MAIS AMPLO, EXTENSÃO
+
+Sequência de passos com objetivo definido
+Execução de tarefas específicas
+Conjunto de operações que resultam
+em uma sucessão finita de ações
+
+Como construir um algoritmo?
+Utilizar um método de construçã
+• Teste e diagnóstico
+
+Estrutura Condicional:
+Estado de uma pessoa ou coisa
+Condicional
+Condição
+Que expressa uma condição
+ou suposição
+Contem ou implica uma suposição
+ou hipótese
+
+
+Condicional Encadeado:
+Se (<codição 1>) então
+<instruções para condição verdadeira>
+Senão
+Se (<condição 2>) então
+<instruções para: condição 2 verdadeira e coné
+Senão
+<instrucões oara condicão 1 e 2 falsas>
+fim_se
+
+
+
+Estrutura Condicional
+Início programa:
+leia A
+leia B
+se (X >= 10)
+x = x-7
+Senão
+ X = X+5
+Fim se
+
+Fim programa.
+
+Instruções de entrada/saída
+Definição formal:Consiste na impressão dos dados do mundo abstrato, digital por
+meio de ação de alguma interface.
+
+Os formatos podem variar desde simples arquivos binários
+até complexas querys de banco de dados.
+
+SEÇÃO DO GIT E DO GITHUB:
+
+COMANDOS DENTRO DO CMD E SUAS RESPECTIVAS FUNÇÕES: 
+
+"CD":É PARA EXIBIR O NOME DO DIRETÓRIO OU ALTERAR O ATUAL
+"MKDIR":CRIA UM NOVO DIRETÓRIO
+"DIR":EXIBE OS ARQUIVOS PRESENTES NO DIRETÓRIO ATUAL 
+"DEL/RMDIR : DELETA UM DIRETÓRIO; ESVAZIA-LO ANTES É RECOMENDADO.
+
+LINHAS DE CÓDIGO PARA LEMBRAR OS PASSOS E COMANDOS NO GIT:
+
+endre@DESKTOP-P9UDU19 MINGW64 ~/Desktop
+$ cd /c/Users/Endre/.ssh/
+
+endre@DESKTOP-P9UDU19 MINGW64 /c/Users/Endre/.ssh
+$ ssh-keygen -t ed25519 -C endrew8745@gmail.com
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/endre/.ssh/id_ed25519):
+/c/Users/endre/.ssh/id_ed25519 already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/endre/.ssh/id_ed25519
+Your public key has been saved in /c/Users/endre/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:BJaCgw9vqQyWy8xPuocuZPlWAxrMOvTSP/OosyuXKGg endrew8745@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+| . .  o.         |
+|o o ....         |
+|o+.o .  .        |
+|.B=.   .         |
+|XoB .   S        |
+|+% + o           |
+|+.O + .          |
+|+E O +.          |
+|=o*+=.+.         |
++----[SHA256]-----+
+
+endre@DESKTOP-P9UDU19 MINGW64 /c/Users/Endre/.ssh
+$ ^C
+
+endre@DESKTOP-P9UDU19 MINGW64 /c/Users/Endre/.ssh
+$ cd /c/Users/endre/.ssh/
+
+endre@DESKTOP-P9UDU19 MINGW64 ~/.ssh
+$ ls
+id_ed25519  id_ed25519.pub
+
+endre@DESKTOP-P9UDU19 MINGW64 ~/.ssh
+$ cat id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC6g2VQ7s8hP2aHS1MqRxZhQbQ6TBmcZBi9WeF0E88vL endrew8745@gmail.com
+
+endre@DESKTOP-P9UDU19 MINGW64 ~/.ssh
+$ ^C
+
+endre@DESKTOP-P9UDU19 MINGW64 ~/.ssh
+$ eval $(ssh-agent -s)
+Agent pid 928
+
+endre@DESKTOP-P9UDU19 MINGW64 ~/.ssh
+$ ssh-add id_ed25519
+Enter passphrase for id_ed25519:
+Identity added: id_ed25519 (endrew8745@gmail.com)
+
+endre@DESKTOP-P9UDU19 MINGW64 ~/.ssh
+$ git@github.com:EndrewSouza/TESTE.git
+bash: git@github.com:EndrewSouza/TESTE.git: No such file or directory
+
+endre@DESKTOP-P9UDU19 MINGW64 ~/.ssh
+$ git clone git@github.com:EndrewSouza/TESTE.git
+Cloning into 'TESTE'...
+The authenticity of host 'github.com (20.201.28.151)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+warning: You appear to have cloned an empty repository.
+
+endre@DESKTOP-P9UDU19 MINGW64 ~/.ssh
+$
+
+
